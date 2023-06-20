@@ -7,6 +7,7 @@ public class BasicEnemyAI : MonoBehaviour
     public Rigidbody2D enemyRB;
     public BoxCollider2D enemyBox;
     public GameObject player;
+    public GameObject sword;
     public Animator anim;
     public float minDistance = 2.75f;
     public float speed = 1.5f;
@@ -56,7 +57,7 @@ public class BasicEnemyAI : MonoBehaviour
             {
                 anim.SetTrigger("heavyAttack");
                 transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, lungeSpeed * Time.deltaTime);
-                cooldown = Random.Range(1.5f, 2f);
+                cooldown = Random.Range(2f,  2.5f);
             }
         }
         

@@ -878,7 +878,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2059405, y: 1}
+    m_SensorSize: {x: 1.9902724, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1426,22 +1426,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!58 &2125622895
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125622889}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 2.75
 --- !u!114 &2125622896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1457,9 +1441,10 @@ MonoBehaviour:
   enemyRB: {fileID: 2125622890}
   enemyBox: {fileID: 2125622891}
   player: {fileID: 7955195186225017888}
+  sword: {fileID: 764645759}
   anim: {fileID: 2125622894}
   minDistance: 2.25
-  speed: 3
+  speed: 4
   lungeSpeed: 6
   noticeRange: 11
   offset: 90
